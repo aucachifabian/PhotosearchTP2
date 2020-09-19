@@ -27,10 +27,12 @@ public class frontEnda extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
+					
 					frontEnda frame = new frontEnda();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
+					
 					
 				}
 			}
